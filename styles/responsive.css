@@ -1,0 +1,79 @@
+@media (max-width: 1024px){
+    header{
+        padding: 10px !important;
+    }
+    #navigationContainer{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 70px;
+        z-index: 2;
+        background-color: #212492;
+        left: 0;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+    #benefitHero{
+        min-height: 300px;
+    }
+    #navigationContainer.active{
+        display: block;
+    }
+    #mobileMenu{
+        display: block;
+        color: #fff;
+        width: auto;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    #navigationContainer li{
+        line-height: 25px;
+    }
+
+    .hero-content{
+        width: 100%;
+        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    .how-to-title{
+        font-size: 30px;
+    }
+
+    .search-tool{
+        width: 95%;
+    }
+    .steps{
+        display: block;
+    }
+    .step-box{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+   
+}
+
+@media (min-width: 768px){
+
+ 
+}
+
+@media (min-width: 1024px){
+
+   
+    
+}
+
+
