@@ -3,8 +3,6 @@ var mobileToggle = document.getElementById("mobileMenu");
 
 const navigationItems = [
     {name:"Solicitudes", url:"/Solicitud.html"},
-    {name: "Placeholder", url:"#"},
-    {name: "Placeholder", url:"#"}
 ];
 
 var loadNavigation = ()=>{
